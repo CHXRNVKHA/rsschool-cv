@@ -40,3 +40,5 @@ Practiced in a small web studio for a month.
 ### Education:
 
 Specialized secondary aducation. Now i am study in a university BSUIR, 2nd course.
+
+### English: A2+
