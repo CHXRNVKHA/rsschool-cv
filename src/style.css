@@ -1,0 +1,181 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.main-container {
+  max-width: 1024px;
+  margin: auto;
+  font-family: 'Noto Serif', serif;
+}
+
+.style-link {
+  text-decoration: none;
+  color: #62a068;
+}
+
+header {
+  display: flex;
+}
+
+.basic-info {
+  flex: 1;
+  position: relative;
+  background-color: #62a068;
+  color: #fff;
+  box-sizing: border-box;
+  padding: 50px;
+}
+
+.name-and-sname {
+  font-size: 2em;
+  font-weight: bold;
+  letter-spacing: 0.05em;
+  padding-bottom: 20px;
+}
+
+.my-contacts {
+  padding: 20px 0px;
+}
+
+.my-contacts i {
+  margin-right: 20px;
+}
+
+.sn-link {
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+.sn-link > i {
+  font-size: 1.75em;
+  padding: 3px 5px;
+  border-radius: 5px;
+  color: #fff;
+}
+
+.sn-link > i:hover {
+  background-color: #fff;
+}
+
+.fa-github:hover {
+  color: #000;
+}
+
+.fa-vk:hover {
+  color: #4a76a8;
+}
+
+.fa-instagram:hover {
+  color: #cc0ea3;
+}
+
+.basic-info::after {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 0;
+  height: 0;
+  top: 0;
+  right: -100px;
+  border-right: 100px solid transparent;
+  border-bottom: 364.516px solid #62a068;
+}
+
+.div-for-img {
+  width: 30%;
+  font-size: 0;
+}
+
+.div-for-img > img {
+  width: 100%;
+}
+
+section {
+  padding: 50px;
+  background-color: #f9f9f9;
+  color: #505158;
+}
+
+.name-section {
+  font-size: 2em;
+  letter-spacing: 0.02em;
+  font-weight: bold;
+}
+
+.content-section {
+  padding: 20px;
+}
+
+.white-section {
+  background-color: #fdfdfd;
+}
+
+.green-span {
+  color: #62a068;
+  font-weight: bold;
+}
+
+.img-dp {
+  padding: 40px 80px 20px 80px;
+}
+
+.img-dp > img {
+  width: 100%;
+}
+
+.com-for-img {
+  text-align: center;
+}
+
+.container-section-skills {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.elem-skills {
+  width: 50%;
+  box-sizing: border-box;
+  padding: 40px 15px;
+}
+
+.info-skill {
+  padding-bottom: 10px;
+}
+
+.number-skill {
+  color: #62a068;
+  margin-right: 20px;
+}
+
+.number-skill > span,
+.name-skill {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.scale {
+  width: 100%;
+  height: 5px;
+  background-color: #cccccc;
+  border-radius: 2.5px;
+  overflow: hidden;
+}
+
+.meter {
+  height: 100%;
+  width: 0;
+  background-color: #62a068;
+}
+
+.meter-js {
+  width: 69%;
+}
+
+.meter-c-sharp {
+  width: 55%;
+}
+
+.meter-html-css {
+  width: 66%;
+}
